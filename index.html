@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vishal - Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: rgb(6, 6, 61);
+        color: white;
+        font-family: "Poppins", serif;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(9, 9, 54);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+      }
+      nav ul li a:hover {
+        font-size: 1.02rem;
+        color: rgb(193, 193, 243);
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        margin: 100px 0;
+        align-items: center;
+      }
+      .firstsection > div {
+        width: 40%;
+      }
+      .leftsection {
+        font-size: 3rem;
+      }
+      .rightsection img {
+        width: 80%;
+      }
+      .purple {
+        color: blueviolet;
+      }
+
+      #photo {
+        mix-blend-mode: screen; /* Blends the image with the background */
+      }
+
+      #element {
+        color: blueviolet;
+      }
+
+      .secondsection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+
+      main hr {
+        border: 0;
+        background: rgb(44, 44, 122);
+        height: 1.2px;
+        margin: 40px 84px;
+      }
+      .secondsection h1 {
+        font-size: 1.5rem;
+      }
+      .text-gray {
+        color: gray;
+      }
+      .secondsection .box {
+        background: white;
+        width: vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+
+      .secondsection .verticle {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 100px;
+      }
+      .java {
+        width: 23px;
+        position: relative;
+        top: -23px;
+        left: -10px;
+      }
+
+      .verticle-top {
+        width: 109px;
+        position: relative;
+        top: 60px;
+        left: -13px;
+      }
+
+      .lorem {
+        position: relative;
+        top: 57px;
+        width: 147px;
+        font-size: 9px;
+        left: -13px;
+        color: gray;
+      }
+
+      footer {
+        width: 100%;
+        background-color: rgb(18, 48, 53);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+      }
+
+      .footer1 {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding: 23px 0;
+      }
+
+      .footer-first,
+      .footer-second {
+        text-align: center;
+      }
+
+      .footer-second ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      .footer-second ul li {
+        margin: 5px 0;
+      }
+
+      .footer-bottom {
+        margin-top: 20px;
+        text-align: center;
+        color: gray;
+        font-size: 0.9rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Vishal-portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Service</a></li>
+            <li><a href="/">Project</a></li>
+            <li><a href="/">Contact me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi, My name is <span class="purple">Vishal</span>
+          <div>And I am a passionate</div>
+          <span id="element"></span>
+        </div>
+        <div class="rightsection">
+          <img id="photo" src="bg.png" alt="" />
+        </div>
+      </section>
+
+      <hr />
+
+      <section class="secondsection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Work Experience</h1>
+
+        <div class="box">
+          <div class="verticle">
+            <img class="java" src="top.png" alt="" />
+            <div class="verticle-top">Java Developer (2010 - 2015)</div>
+            <div class="lorem">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo
+              alias temporibus obcaecati amet eaque, dolorum reiciendis
+              accusantium vero libero velit molestias inventore deleniti!
+            </div>
+          </div>
+          <div class="verticle">
+            <img class="java" src="top.png" alt="" />
+            <div class="verticle-top">Java Developer (2010 - 2015)</div>
+            <div class="lorem">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo
+              alias temporibus obcaecati amet eaque, dolorum reiciendis
+              accusantium vero libero velit molestias inventore deleniti!
+            </div>
+          </div>
+          <div class="verticle">
+            <img class="java" src="top.png" alt="" />
+            <div class="verticle-top">Java Developer (2010 - 2015)</div>
+            <div class="lorem">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo
+              alias temporibus obcaecati amet eaque, dolorum reiciendis
+              accusantium vero libero velit molestias inventore deleniti!
+            </div>
+          </div>
+          <div class="verticle">
+            <img class="java" src="top.png" alt="" />
+            <div class="verticle-top">Java Developer (2010 - 2015)</div>
+            <div class="lorem">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo
+              alias temporibus obcaecati amet eaque, dolorum reiciendis
+              accusantium vero libero velit molestias inventore deleniti!
+            </div>
+          </div>
+          <div class="verticle">
+            <img class="java" src="top.png" alt="" />
+            <div class="verticle-top">Java Developer (2010 - 2015)</div>
+            <div class="lorem">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo
+              alias temporibus obcaecati amet eaque, dolorum reiciendis
+              accusantium vero libero velit molestias inventore deleniti!
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer1">
+        <div class="footer-first">
+          <h3>Vishal's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Service</li>
+            <li>Project</li>
+          </ul>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Service</li>
+            <li>Project</li>
+          </ul>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Service</li>
+            <li>Project</li>
+          </ul>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Service</li>
+            <li>Project</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        www.myPortfolio.com | All rights reserved
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Java Developer....", "Web Designer..."],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
