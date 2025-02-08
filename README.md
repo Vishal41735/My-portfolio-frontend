@@ -16,7 +16,7 @@ You can visit the live site here: [https://my-portfolio-hazel-theta-96.vercel.ap
 
 ## Technologies Used
 
-- **Frontend**: HTML, CSS, JavaScript, React.js (or any other framework/library you used)
+- **Frontend**: HTML, CSS, JavaScript .
 - **Deployment**: Vercel
 - **Version Control**: Git and GitHub
 
